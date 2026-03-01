@@ -1,0 +1,82 @@
+/* 1. Page Background and Font Setup */
+body {
+    background-color: #f4f7f6; /* Light
+gray background */
+    font-family: 'Segoe UI', Tahoma,
+Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 30px;
+    color: #333;
+}
+
+/* 2. Header Style (Your Name and 
+Title) */
+header {
+    background-color: #1a2a6c; /*
+Elegent Dark Blue */
+    color:white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0 ,0, 0.2);
+}
+
+/* 3. Each Content Section (About,
+Skills, Projects) */
+section {
+    background:#ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* 4. Project List Style */
+.Project-item {
+    background-color: #f9f9f9;
+    Padding: 15px;
+    margin-top: 15px;
+    border-left: 15px solid #1a2a6c;
+    border-radius: 5px;
+}
+
+.Project-item h3 {
+    margin-top: 0;
+    color: #1a2a6c;
+}
+
+/* 5.Contact &Footer style */
+#contact {
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #777;
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+}
+
+/* Project hover effect */
+.Project-item:hover {
+    background-color: #eef2ff;
+    transform: translateY(-5px);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .Project-item  {
+        width: 90%; /* cover full screen */
+        margin: 10px auto;
+    }
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
